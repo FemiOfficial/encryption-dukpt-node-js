@@ -1,0 +1,24 @@
+{
+  "name": "dukpt-node",
+  "version": "1.0.0",
+  "description": "testing dukpt",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FemiOfficial/encryption-dukpt-node-js.git"
+  },
+  "keywords": [
+    "encryption",
+    "dukpt"
+  ],
+  "author": "femiofficial",
+  "license": "ISC",
+  "dependencies": {
+    "dukpt": "^2.0.1",
+    "express": "^4.16.4"
+  }
+}
